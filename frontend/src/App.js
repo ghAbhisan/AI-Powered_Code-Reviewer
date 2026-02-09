@@ -36,7 +36,7 @@ function App() {
       setOutput("🔍 Reviewing your code...");
 
       const response = await axios.post(
-        "http://localhost:5000/review-code",
+        "https://ai-powered-code-reviewer-backend-n6io.onrender.com",
         { code }
       );
 
